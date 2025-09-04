@@ -1,0 +1,15 @@
+actual_end: '2025-08-29T14:46:01'
+actual_start: '2025-08-29T14:30:10'
+camera_id: camera1
+clip_id: e9096580-1612-4190-a3d2-2bd47661d9eb
+created_at: '2025-08-29T14:46:44.005137'
+duration_seconds: 20.0
+requested_end: '2025-08-29T14:30:20'
+requested_start: '2025-08-29T14:30:00'
+source: MediaMTX
+source_clips:
+- end_time: '2025-08-29T14:46:01'
+  file_path: D:\BirlaPOC\Clipping_API\mediamtx_clips\camera1\camera1_20250829_143010.mp4
+  file_size: 199642893
+  filename: camera1_20250829_143010.mp4
+  start_time: '2025-08-29T14:30:10'

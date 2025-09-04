@@ -1,0 +1,33 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 1
+
+storage:
+  videos_dir: "videos"
+  annotations_dir: "annotations"
+  mediamtx_clips_dir: "mediamtx_clips"
+  retention_days: 7
+
+processing:
+  max_concurrent_jobs: 3
+  ffmpeg_timeout_seconds: 300
+  max_clip_duration_minutes: 60
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/clipping_api.log"
+
+metrics:
+  enabled: true
+  endpoint: "/metrics"
+
+mediamtx:
+  clips_base_dir: "mediamtx_clips"
+  supported_formats: [".mp4", ".mkv", ".avi"]
+  default_segment_duration_minutes: 1
+
+cameras:
+  default_keyframe_interval: 5.0
+  supported_formats: ["mp4", "avi", "mov"]

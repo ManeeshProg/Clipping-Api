@@ -1,0 +1,8 @@
+Clip ID: e9096580-1612-4190-a3d2-2bd47661d9eb
+Camera: camera1
+Source: MediaMTX
+Requested Time Range: 2025-08-29 14:30:00 to 2025-08-29 14:30:20
+Actual Time Range: 2025-08-29 14:30:10 to 2025-08-29 14:46:01
+Duration: 20.0 seconds
+Source Clips Used: 1
+  1. camera1_20250829_143010.mp4 (2025-08-29T14:30:10 to 2025-08-29T14:46:01)
