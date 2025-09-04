@@ -109,7 +109,7 @@ class MediaMTXClient:
         
         # Estimate clip duration (MediaMTX typically creates fixed-duration segments)
         # This could be configurable or determined by analyzing the actual file
-        estimated_duration = timedelta(seconds=5)  # Default 5-second segments
+        estimated_duration = timedelta(seconds=20)  # Default 20-second segments
         
         try:
             # Try to get actual file duration using os.stat as a rough estimate

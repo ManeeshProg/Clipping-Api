@@ -25,7 +25,7 @@ class ClipProcessor:
     
     async def process_clip(self, job: ClipResponse) -> Tuple[bool, str]:
         try:
-            # Calculate time range from timestamp 
+            # Calculate time range from timestamp (15 seconds before, 5 seconds after)
             start_time = job.start_time if hasattr(job, 'start_time') else job.timestamp - timedelta(seconds=15)
             end_time = job.end_time if hasattr(job, 'end_time') else job.timestamp + timedelta(seconds=5)
             clips = self.mediamtx_client.find_clips(
